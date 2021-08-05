@@ -1,0 +1,140 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.contenedor{
+    background:cornflowerblue;
+    width: 90%;
+    max-width: 1000px;
+    margin: auto;
+    display: flex;
+    flex-flow: row wrap;
+}
+
+body{
+    background: white;
+}
+
+header{
+    background: rgb(20, 130, 220);
+    width: 100%;
+    padding: 20px;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-flow: row wrap;
+    flex-direction: row;
+    flex-wrap: wrap;
+    
+}
+
+header .logo{
+    color: floralwhite;
+    font-size: 20px;
+}
+
+header .logo a{
+    color: rgb(241, 240, 237);
+    text-decoration: none;
+    line-height: 50px;
+}
+
+header .logo img{
+    width: 50px;
+    vertical-align: top;
+}
+
+header nav a:hover{
+    background: rgb(207, 202, 202);
+}
+
+header nav {
+width: 50%;
+
+display: flex;
+flex-wrap: wrap;
+align-items: center;
+}
+
+header nav a {
+background: rgb(103, 179, 241);
+text-align: end;
+text-decoration: none;
+padding: 8px;
+flex-grow: 1;
+font-size:smaller;
+}
+
+.main{
+    background: rgb(145, 170, 218);
+    padding: 20px;
+   
+
+    flex: 1 1 70%;
+}
+
+.main article{
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+    border-bottom: 1px solid black;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+aside{
+background: rgb(149, 185, 250);
+
+flex: 1 1 30%;
+display: flex;
+flex-wrap: wrap;
+justify-content: flex-start;
+flex-direction: column;
+padding: 20px;
+
+}
+
+aside .widget{
+    background: rgb(67, 123, 255);
+    height: 150px;
+    margin:10px;
+}
+
+footer{
+    background: dodgerblue;
+    width: 100%;
+    padding: 20px;
+    font-size: smaller;
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+footer .links {
+display: flex;
+flex-wrap: wrap;
+}
+
+footer .links a{
+    flex-grow: 1;
+    color: rgb(223, 223, 223);
+    padding: 10px;
+    text-align: center;
+    text-decoration: none;
+}
+
+footer .links a:hover {
+    background: darkseagreen;
+}
+
+footer .social{
+    background: rgb(189, 213, 245);
+}
+
+footer .social a {
+color: black;
+text-decoration: none;
+padding: 10px;
+display: inline-block;
+}
